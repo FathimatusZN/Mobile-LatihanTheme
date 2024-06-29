@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.LatihanTheme"
+           parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#009688</item>
+    </style>
+    <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#03A9F4</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="TitleStyle.Red">
+        <item name="android:textColor">#E91E63</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="CodeFont.Red">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Theme.LatihanTheme"
+           parent="Base.Theme.LatihanTheme" />
+    <style name="CodeFont">Red</style>
+</resources>
